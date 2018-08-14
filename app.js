@@ -38,16 +38,17 @@ function average(a, b) {
 
 
 /****** SCOPING EXERCISES ******/
+/* 
 let fruits = ['strawberry','blueberry','banana'];
 //let favoriteFruit;
 
 function printFruitsArr() {
     console.log('First fruit:\t' + fruits[0]);
     let favoriteFruit = fruits[1];
-    let leastFavorite = fruits[2];
 
     function printFavoriteFruit() {
         console.log('Favorite fruit:\t' + favoriteFruit); // Able to do this in step 10 since it was initially globally declared
+        let leastFavorite = fruits[2];
     }
 
     console.log('Least favorite:\t' + leastFavorite);
@@ -56,3 +57,17 @@ function printFruitsArr() {
 }
 
 printFruitsArr();
+*/
+
+sayHello();
+function sayHello() {
+    console.log('Hello');
+}
+
+
+
+let alertHello = function() {
+    alert('Hello');
+}
+
+alertHello()
